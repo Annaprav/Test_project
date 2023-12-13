@@ -22,8 +22,8 @@
 
 2. Или запустите с помощью docker:
    ```bash
-   docker pull annprav/my_test_container
-   docker run -p 8501:8501 my_test_container
+   docker build -t streamlit .
+   docker run -p 8501:8501 streamlit
    ```
    Тогда веб-приложение будет доступно по http://localhost:8501
    
