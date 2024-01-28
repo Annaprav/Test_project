@@ -25,7 +25,7 @@
    docker build -t streamlit .
    docker run -p 8501:8501 streamlit
    ```
-   Тогда веб-приложение будет доступно по http://localhost:8501
+   Тогда веб-приложение будет доступно по ссылке: http://localhost:8501
    
    Остановка всех докеров:
    ```bash
